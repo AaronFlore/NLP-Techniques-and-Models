@@ -4,7 +4,7 @@ Contains a variety of Natural Language Processing (NLP) programs and models.
 ## Sentiment-Classifier-and-Text-Generator
 ### lm.py
 Implements a bigram language model with add-alpha smoothing to generate text and evaluate its performance using perplexity. It tokenizes input text, constructs a vocabulary, computes bigram probabilities, and can generate text sequences based on learned patterns. The script also includes functionality to plot word frequency distributions and perplexity metrics. It is configurable via command-line arguments, allowing users to specify training and validation data, the smoothing parameter, and plotting options.
-#### sentiment_classifier.py
+### sentiment_classifier.py
 Implements several classifiers to predict sentiment. It includes a baseline classifier that always predicts positive sentiment, a Naive Bayes classifier, a Logistic Regression classifier, and a Bigram Logistic Regression classifier. The script utilizes nltk for text preprocessing and scikit-learn for model training and evaluation. It supports command-line arguments to specify training and validation data, remove stopwords, and configure logistic regression parameters. The classifiers are evaluated on their accuracy in predicting sentiment labels for given sentences.
 
 ## Text-Classification
