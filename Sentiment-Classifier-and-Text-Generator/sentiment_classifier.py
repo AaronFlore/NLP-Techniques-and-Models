@@ -1,5 +1,5 @@
 """
-Description: PS0
+Description: Sentiment Classifier
 Date: January 30th, 2024
 Author: Aaron Floreani
 """
