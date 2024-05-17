@@ -1,5 +1,5 @@
 """
-Description: PS0
+Description: NLP Text Generator
 Date: January 30th, 2024
 Author: Aaron Floreani
 """
